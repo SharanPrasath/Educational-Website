@@ -1,0 +1,235 @@
+body{
+    font-family: 'poppins','sans-serif';
+    background-image: url("https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1900&q=80");
+    background-repeat: no-repeat; 
+}
+
+.main-div{
+    font-family: 'poppins','sans-serif';
+
+    /* background-image: url("https://images.unsplash.com/photo-1557264322-b44d383a2906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80");
+    background-repeat: no-repeat;  */
+    position: absolute;
+    display: flex;
+    width:100%;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    padding-top: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    transition: 1s;
+
+}
+
+.heading:hover{
+    font-size: 3rem;
+    color: rgb(62, 175, 90);
+
+}
+
+hr{
+    width: 40%;
+    border: 10px solid #fff;
+}
+.left{
+    padding-bottom: 200px;
+    /* padding-right: 100px; */
+}
+.social{
+    padding-left: 200px;
+    display: flex;
+    width: 500px;
+}
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+    padding-right: 10px;
+    transition: 1s;
+    opacity: 0.5;
+  }
+  
+  .icon:hover{
+    color:#ff4c68;
+    opacity: 1;
+  }
+  .button{
+      margin-left: 300px;
+  }
+
+  button{
+    border: solid 3px white;
+    background-color: transparent;
+    padding: 10px;
+    width: 60%;
+    color: white;
+    border-image: linear-gradient(45deg,rgb(28, 236, 243),rgb(248, 32, 176)) 10;
+    border-radius: 100px;
+    font-weight: 700;
+    transition: 1s;
+
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa); */
+  }
+
+  button:hover{
+ transform: translateX(20px);
+ background-position: right center;
+ color: #fff;
+ text-decoration: none;
+
+
+  }
+  .navbar{
+	display: flex;
+	align-items: center;
+	margin-left: 200px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+    padding-right: 100px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+    justify-content: center;
+
+}
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	/* text-decoration: none; */
+	color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.profile-card-2 {
+    max-width: 300px;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    padding-left: 100px;
+    margin-bottom:0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    height : 300px;
+    border-radius: 10px;
+    transition:1s;
+}
+.row{
+padding-bottom:100px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 70px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+.profile-card-2:hover{
+ transform: translate(20px, -20px);
+
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+
+
+}
+
+
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+.profile-username {
+  padding: 2%;
+}
+hr {
+  width: 100px;
+  text-align: center;
+  margin-left: 45%;
+}
+
+.btn {
+  font-family: "Montserrat";
+  font-weight: Bold;
+}
+
+.cardend {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.download-button {
+  font-weight: bold;
+}
+
+.post-title{
+    font-family: 'poppins','sans-serif';
+
+font-size:2rem;
+color: rgb(62, 175, 90);
+border-image: linear-gradient(45deg,rgb(28, 236, 243),rgb(248, 32, 176)) 10;
+
+}
+
+.info-page{
+display:flex;
+}
+
+
+
+
+
